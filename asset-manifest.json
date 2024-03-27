@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bg-remover/static/css/main.c896997c.css",
+    "main.js": "/bg-remover/static/js/main.e8cd78ba.js",
+    "index.html": "/bg-remover/index.html",
+    "main.c896997c.css.map": "/bg-remover/static/css/main.c896997c.css.map",
+    "main.e8cd78ba.js.map": "/bg-remover/static/js/main.e8cd78ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c896997c.css",
+    "static/js/main.e8cd78ba.js"
+  ]
+}
