@@ -1,0 +1,53 @@
+.section1{
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    .section1-right{
+        margin-left: 60px;
+        .heading{
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+
+        }
+
+        .matter{
+            font-size: 19px;
+            line-height: 1.8rem;
+    letter-spacing: .3px;
+            color: #262b33;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 550;  
+            text-align: justify;
+          
+        }
+        .upload-btn .btn{
+            display: inline-block;
+    padding: 0.75rem 3rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: .3px;
+    background: #2c7dfa;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: #2c7dfa;
+    font-family: 'Roboto', sans-serif;
+    
+
+        }
+    }
+
+    .section2-left{
+        margin-left: 60px;
+    }
+    .section3-left{
+        margin-right: 30px;
+    }
+}
+
+

@@ -1,0 +1,110 @@
+.upload-page{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+
+
+.heading{
+    text-align: center;
+    font-size: 66px;
+    line-height: 46px;
+    font-weight: bolder;
+    color: var(--dark);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+margin-top: -20px;    
+}
+
+.mainConatin{
+display: flex;
+}
+.conatiner{
+    width: 400px;
+    height: 290px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(22,23,77,.2);
+    border-radius: 6px 6px 6px 6px;
+    border: 1px dashed rgba(0,0,0,.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.removedConatiner{
+    width: 400px;
+    height: 290px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(22,23,77,.2);
+    border-radius: 6px 6px 6px 6px;
+    border: 1px dashed rgba(0,0,0,.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    .final-images{
+        object-fit: cover;
+        width: 400px;
+        height: 290px;
+    }
+}
+
+#upload-btn{
+    background: linear-gradient(315deg,#74ecce,#221ef5 76%);
+        border-radius: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        outline: 0;
+        border: none;
+        padding: 4px 70px;
+        display: flex;
+        margin: 32px auto 0;
+        cursor: pointer;
+        line-height: 48px;
+        position: relative;
+    
+}
+
+#filepicker{
+    display: none;
+}
+
+    .btn{
+        background: linear-gradient(315deg,#74ecce,#221ef5 76%);
+        border-radius: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        outline: 0;
+        border: none;
+        padding: 4px 70px;
+        display: flex;
+        margin: 32px auto 0;
+        cursor: pointer;
+        
+        line-height: 48px;
+        position: relative;
+    
+        
+    }
+
+    .R-btn{
+        background: linear-gradient(315deg,#74ecce,#221ef5 76%);
+        border-radius: 40px;
+        border-color: #fff;
+        width: 80px;
+        margin-top: 20px;
+        overflow: 'hidden';
+        margin-right: 20px;
+        height: 30px;
+        
+    }
+    .before-after-btens
+    {  margin-top:  -5px;
+        display: flex;
+    }
+}

@@ -1,0 +1,53 @@
+.video{
+   
+    margin-top: 50px;
+    
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        padding: 20px;
+         margin-top: -5px;
+        .content{
+            margin-top: 5px;
+      margin-bottom: 20px;
+      font-family: 'Roboto', sans-serif;
+
+        }
+        
+        .content h2{
+            font-size: 50px;
+        }
+        .content p{
+            font-size: 20px;
+            text-align: left;
+            line-height: 30px;
+        }
+          
+        .video-container video{
+            height: 400px;
+            border-radius: 10%;
+        }
+
+        .upload-btn .btn{
+            display: inline-block;
+    padding: 0.75rem 3rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: .3px;
+    background: #2c7dfa;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: #2c7dfa;
+    font-family: 'Roboto', sans-serif;
+    
+
+        }
+    
+    }
+}
+

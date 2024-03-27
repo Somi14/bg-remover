@@ -1,0 +1,14 @@
+.app{
+
+    .link{
+      color: inherit;
+      text-decoration: none;
+    }
+    .link:hover{
+        box-shadow: 0 1 5px #ffee10;
+        text-shadow: 0 0 5px #f0f008;   
+         transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+ 
+    }
+  }
